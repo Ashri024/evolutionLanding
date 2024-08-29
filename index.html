@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/output.css">
+    <link rel="stylesheet" href="./src/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="./src/script.js"></script>
+</head>
+<body class="min-h-screen bg-primary w-full overflow-x-hidden">
+    <div class="">
+        <header class="flex items-center px-4 py-4 gap-x-3 flex-row">
+            <div class="w-[90px] flex items-center justify-center  ">
+                <img src="./assets/logo.png" alt="logo">
+            </div>
+            <span class="lato-regular text-white text-2xl">
+                Fitness Evolution
+            </span>
+        </header>
+        <div class="w-[90%] max-[768px]:w-[95%] rounded-xl bg-mint-bg mx-auto p-8 h-[70vh] max-[768px]:h-auto max-[768px]:p-4 max-[768px]:rounded-lg" >
+            <div class="w-full h-full flex flex-row items-center justify-between max-[768px]:flex-col-reverse ">
+                <div class="w-[55%] max-[768px]:w-full">
+                    <h1 class="dm-sans-bold text-primary text-[48px] leading-[65px] max-[1024px]:leading-[50px] max-[1024px]:text-[38px] max-[768px]:text-[24px] max-[768px]:leading-[35px] min-[769px]:w-[300px]">
+                        Get the App  Today!
+                    </h1>
+                    <p class="lato-regular text-darkGray text-lg leading-[25px] mt-4 w-[90%] max-[768px]:text-sm max-[768px]:leading-[20px] max-[768px]:w-full max-[768px]:mt-2">
+                        With Fitness Evolution, you'll easily manage your workout schedules, track your progress, and stay in sync with your trainer—anytime, anywhere. Take the first step by downloading it now!
+                    </p>
+                    <div class="mt-8 flex items-center justify-center min-[769px]:justify-around min-[769px]:max-w-[450px] gap-x-2 max-[768px]:mt-4 max-[500px]:gap-x-1 min-[501px]:justify-center">
+                        <div class="relative downloadBtn">
+                            <div class="bg-orange absolute top-0 left-0 bottom-0 right-0 z-0 rounded-lg"></div>
+                            <a href="./assets/apk/FitnessEvolution.apk" download="FitnessEvolution.apk">
+                                <button class="bg-bgOrange text-orange rounded-lg py-2 text-lg w-[210px] max-[1024px]:w-[175px] border-1 border border-orange z-10 relative max-[1024px]:text-base max-[768px]:text-sm max-[768px]:w-[140px]" id="androidBtn">
+                                    <i class="fa-brands fa-google-play text-xl max-[768px]:text-sm"></i>
+                                    <span class="ml-2 max-[768px]:ml-1 lato-regular">Download Now</span>
+                                </button>
+                            </a>
+                        </div>
+                        <div class="relative downloadBtn">
+                            <div class="bg-purple absolute top-0 left-0 bottom-0 right-0 z-0 rounded-lg"></div>
+                            <button class="bg-bgPurple text-purple rounded-lg  py-2 text-lg w-[210px] max-[1024px]:w-[175px] border-1 border border-purple relative z-10 max-[1024px]:text-base max-[768px]:text-sm max-[768px]:w-[140px]" id="iosBtn">
+                                <i class="fa-brands fa-apple text-2xl max-[768px]:text-base"></i>
+                                <span class="ml-2 max-[768px]:ml-1 lato-regular">Coming Soon</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-[45%] max-[768px]:h-[280px] max-[768px]:w-[250px] max-[768px]:w-[300px]  flex items-center justify-center relative ">
+                    <div class="absolute top-0 left-0 right-0 bottom-0 flex items-center justify-center min-[769px]:translate-x-[60%] min-[769px]:opacity-0 mockup">
+                        <img src="./assets/mockup.png" alt="phone" class="w-full">
+                    </div>
+                </div>
+            </div>
+
+            <div class="min-[769px]:hidden w-full features mx-auto mt-6 py-2 flex flex-col items-start max-[1024px]:justify-around gap-y-4 min-[501px]:gap-y-1">
+                <div class="flex flex-row items-center gap-x-3 featureItem min-[769px]:-translate-x-[100%] min-[769px]:opacity-0">
+                    <img src="./assets/icon1.png" alt="logo" class="w-[40px]">
+                    <span class="lato-regular text-primary min-w-[250px] text-sm">
+                        Manage, create and track Schedules effectively
+                    </span>
+                </div>
+                <div class="flex flex-row items-center gap-x-3 featureItem min-[769px]:-translate-x-[100%] min-[769px]:opacity-0">
+                    <img src="./assets/icon2.png" alt="logo" class="w-[40px]">
+                    <span class="lato-regular text-primary min-w-[250px] text-sm">
+                        Facilitates effective communication between trainers and clients
+                    </span>
+                </div>
+                <div class="flex flex-row items-center gap-x-3 featureItem min-[769px]:-translate-x-[100%] min-[769px]:opacity-0 ">
+                    <img src="./assets/icon3.png" alt="logo" class="w-[40px]">
+                    <span class="lato-regular text-primary min-w-[250px] text-sm">
+                        Insightful Blogs to support your fitness journey
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="w-[90%] features mx-auto mt-6 py-2 flex items-center justify-between max-[1024px]:justify-around max-[768px]:hidden">
+            <div class="flex flex-row items-center gap-x-3 featureItem min-[769px]:-translate-x-[100%] min-[769px]:opacity-0">
+                <img src="./assets/icon1.png" alt="logo" class="w-[50px]">
+                <span class="lato-regular text-white min-w-[250px] max-w-[250px] text-sm">
+                    Manage, create and track Schedules effectively
+                </span>
+            </div>
+            <div class="flex flex-row items-center gap-x-3 featureItem min-[769px]:-translate-x-[100%] min-[769px]:opacity-0">
+                <img src="./assets/icon2.png" alt="logo" class="w-[50px]">
+                <span class="lato-regular text-white min-w-[250px] max-w-[250px] text-sm">
+                    Facilitates effective communication between trainers and clients
+                </span>
+            </div>
+            <div class="flex flex-row items-center gap-x-3 featureItem min-[769px]:-translate-x-[100%] min-[769px]:opacity-0 max-[1024px]:hidden">
+                <img src="./assets/icon3.png" alt="logo" class="w-[50px]">
+                <span class="lato-regular text-white min-w-[250px] max-w-[250px] text-sm">
+                    Insightful Blogs to support your fitness journey
+                </span>
+            </div>
+        </div>
+        <div class="h-6 w-full bg-primary min-[769px]:hidden"></div>
+    </div>
+</body>
+</html>
