@@ -21,7 +21,4 @@ window.addEventListener('load', function() {
     const androidBtn = document.querySelector('#androidBtn');
     const iosBtn = document.querySelector('#iosBtn');
 
-    // androidBtn.addEventListener('click', () => {
-    // });
-
     });
